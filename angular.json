@@ -33,8 +33,7 @@
               "node_modules/@zoomus/websdk/dist/css/react-select.css",
               "src/styles.css"
             ],
-            "scripts": [
-            ],
+            "scripts": [],
             "allowedCommonJsDependencies": [
               "@zoomus/websdk"
             ]
@@ -43,7 +42,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "src/environments/environment.ts",
+                    "replace": "src/environments/environment.ts",
+                 
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
@@ -129,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "websdk-sample-angular"
+    }
+  },
+  "defaultProject": "websdk-sample-angular",
+  "cli": {
+    "analytics": "a0a823c9-ebc1-4a47-9c16-ef68b3525f62"
+  }
 }
