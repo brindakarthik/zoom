@@ -15,9 +15,9 @@ ZoomMtg.prepareJssdk();
 export class AppComponent implements OnInit {
 
   // setup your signature endpoint here: https://github.com/zoom/websdk-sample-signature-node.js
-  signatureEndpoint = 'https://hidden-lowlands-27102.herokuapp.com/'
+  signatureEndpoint = 'https://peaceful-forest-16710.herokuapp.com'
   apiKey = 'QE2SZLhBQHK_PpP25tIzfw'
-  meetingNumber = '3121793840'
+  meetingNumber = '7251459193'
   role = 0
   leaveUrl = 'https://oceanacademy.co.in'
   userName = 'Angular'
