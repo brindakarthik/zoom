@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/zoom/",
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -33,8 +34,7 @@
               "node_modules/@zoomus/websdk/dist/css/react-select.css",
               "src/styles.css"
             ],
-            "scripts": [
-            ],
+            "scripts": [],
             "allowedCommonJsDependencies": [
               "@zoomus/websdk"
             ]
@@ -129,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "websdk-sample-angular"
+    }
+  },
+  "defaultProject": "websdk-sample-angular",
+  "cli": {
+    "analytics": "e3fecb4a-8a7a-4cc6-9def-0e8804c939bf"
+  }
 }
