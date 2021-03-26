@@ -9,7 +9,7 @@ import { ZoomMtg } from '@zoomus/websdk';
 //  ZoomMtg.setZoomJSLib('https://source.zoom.us/1.7.5/lib', '/av');
 // declare var ZoomMtg:any;
 
-// ZoomMtg.setZoomJSLib("https://source.zoom.us/1.6.1/lib", "/av")
+ ZoomMtg.setZoomJSLib("https://source.zoom.us/1.9.1/lib", "/av")
 ZoomMtg.preLoadWasm();
 ZoomMtg.prepareJssdk();
 
