@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
   meetingNumber = '77077812872'
   
   role = 0
-  leaveUrl = 'https://oceanacademy.co.in'
+  leaveUrl = 'https://ocean-academy-oa.github.io/zoom/'
   userName = 'Angular'
   userEmail = ''
   
